@@ -1,0 +1,31 @@
+
+T35C4 002:008 SEGGER J-Link V4.80g Log File (0001ms, 1536ms total)
+T35C4 002:008 DLL Compiled: Feb 13 2014 20:50:02 (0001ms, 1536ms total)
+T35C4 002:008 Logging started @ 2017-05-14 00:07 (0001ms, 1536ms total)
+T35C4 002:009 JLINK_SetWarnOutHandler(...) (0000ms, 1536ms total)
+T35C4 002:009 JLINK_OpenEx(...)
+Firmware: J-Link ARM-OB STM32 compiled Jun 30 2009 11:14:15
+Hardware: V7.00
+S/N: 20090928
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (1107ms, 2643ms total)
+T35C4 003:116 JLINK_SetErrorOutHandler(...) (0000ms, 2643ms total)
+T35C4 003:117 JLINK_ExecCommand("ProjectFile = "D:\aeDesign\05.Done\aeBalance\STM32F10x_aebalance\RVMDK\JLinkSettings.ini"", ...)  returns 0x00 (0000ms, 2643ms total)
+T35C4 003:117 JLINK_ExecCommand("Device = STM32F103VB", ...)Device "STM32F103VB" selected (128 KB flash, 20 KB RAM).  returns 0x00 (0001ms, 2644ms total)
+T35C4 003:118 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 2644ms total)
+T35C4 003:118 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 2644ms total)
+T35C4 003:118 JLINK_GetDLLVersion()  returns 48007 (0000ms, 2644ms total)
+T35C4 003:118 JLINK_GetFirmwareString(...) (0000ms, 2644ms total)
+T35C4 003:118 JLINK_GetDLLVersion()  returns 48007 (0000ms, 2644ms total)
+T35C4 003:118 JLINK_GetCompileDateTime() (0000ms, 2644ms total)
+T35C4 003:118 JLINK_GetFirmwareString(...) (0000ms, 2644ms total)
+T35C4 003:118 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 2644ms total)
+T35C4 003:118 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0003ms, 2647ms total)
+T35C4 003:121 JLINK_SetSpeed(500) (0001ms, 2648ms total)
+T35C4 003:122 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 2648ms total)
+T35C4 003:122 JLINK_Reset() >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF>STM32F1xxx: Can not attach to CPU. Trying connect under reset.RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF>JLINK_GetId() >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF>
+STM32F1xxx: Can not attach to CPU. Trying connect under reset.RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF>  returns 0x00000000 (1135ms, 4911ms total)
+T35C4 005:387 JLINK_GetId() >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF>STM32F1xxx: Can not attach to CPU. Trying connect under reset.RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF>  returns 0x00000000 (1127ms, 6038ms total)
+T35C4 006:524 JLINK_GetFirmwareString(...) (0000ms, 6038ms total)
+T35C4 010:479 JLINK_Close() (0001ms, 6039ms total)
+T35C4 010:479  (0001ms, 6039ms total)
+T35C4 010:479 Closed (0001ms, 6039ms total)
